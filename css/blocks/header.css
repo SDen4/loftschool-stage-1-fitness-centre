@@ -1,0 +1,9 @@
+.header {
+    background-color: #131415;
+}
+
+.header__container {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #131415;
+}
