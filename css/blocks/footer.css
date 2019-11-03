@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    background-color: #131415;
+    color: #ffffff;
+    font-family: 'open_sanslight';
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131415;
+}
+
+.footer__author {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer__link {
+    font-family: 'open_sansbold';
+    color: #ffffff;
+}
+
+.footer__student .footer__link {
+    text-decoration: none;
+}

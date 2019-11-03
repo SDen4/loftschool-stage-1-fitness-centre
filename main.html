@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="./img/pics/favicon.png" type="image/png">
     <title>Afrodita</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
@@ -17,21 +19,21 @@
                     <nav class="navigation">
                         <ul class="navigation__list">
                             <li class="navigation__item">
-                                <a href="" class="navigation__item_link">
-                                    <img class='navigation__item_icon' src="./img/pics/menu-main_icon.png" alt="menu-main_icon">
-                                    <span class='navigation__item_title'>ГЛАВНАЯ</span>
+                                <a href="main.html" class="navigation__item_link">
+                                    <div class='navigation__item_icon_main'></div>
+                                    <div class='navigation__item_title'>ГЛАВНАЯ</div>
                                 </a>
                             </li>
                             <li class="navigation__item">
                                 <a href="" class="navigation__item_link">
-                                    <img class='navigation__item_icon' src="./img/pics/menu-feedback_icon.png" alt="menu-feedback-icon">
-                                    <span class='navigation__item_title'>ОТЗЫВЫ</span>
+                                    <div class='navigation__item_icon_feedback'></div>
+                                    <div class='navigation__item_title'>ОТЗЫВЫ</div>
                                 </a>
                             </li>
                             <li class="navigation__item">
                                 <a href="" class="navigation__item_link">
-                                <img class='navigation__item_icon' src="./img/pics/menu-service_icon.png" alt="menu-service-icon">
-                                <span class='navigation__item_title'>УСЛУГИ</span>
+                                    <div class='navigation__item_icon_service'></div>
+                                    <div class='navigation__item_title'>УСЛУГИ</div>
                                 </a>
                             </li>
                         </ul>
@@ -43,9 +45,162 @@
                 </div>
             </div>
         </header>
-        <main>        </main>
+        <main class="main-content">
+            <div class="banner">
+                <div class="container">
+                    <img class="banner__image" src="./img/banner-main.png" alt="banner-main">
+                </div>
+            </div>
+            <div class="features">
+                <div class="container">
+                    <div class="features__container">
+                        <div class="features__headline">ОСОБЕННОСТИ</div>
+                        <div class="features__content">
+                            <ul class="features__list">
+                                <li class="features__item">
+                                    <div class="features__image features__image_unic"></div>
+                                    <div class="features__subtitle">УНИКАЛЬНОСТЬ</div>
+                                    <div class="features__description">
+                                        <div class="features__text">Мы делаем все, для вашего комфорта</div>
+                                        <ul class="features__sublist">
+                                            <li class="features__sublist_item">Питание включено</li>
+                                            <li class="features__sublist_item">Багаж (5кг)</li>
+                                            <li class="features__sublist_item">Душ/баня</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="features__item">
+                                    <div class="features__image features__image_premium"></div>
+                                    <div class="features__subtitle">ПРЕМИУМ-КЛАСС</div>
+                                    <div class="features__description">
+                                        <div class="features__text">Наш зал оборудован тренажёрами A-класса</div>
+                                        <ul class="features__sublist">
+                                            <li class="features__sublist_item">Качество</li>
+                                            <li class="features__sublist_item">Продуктивность</li>
+                                            <li class="features__sublist_item">Результат</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="features__item">
+                                    <div class="features__image features__image_trainer"></div>
+                                    <div class="features__subtitle">ЛИЧНЫЙ ТРЕНЕР</div>
+                                    <div class="features__description">
+                                        <div class="features__text">Тренер сделает всё для вашего результата</div>
+                                        <ul class="features__sublist">
+                                            <li class="features__sublist_item">Программа</li>
+                                            <li class="features__sublist_item">Питание</li>
+                                            <li class="features__sublist_item">План тренировок</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="container">
+                    <div class="news__container">
+                        <div class="news__headline">ПОСЛЕДНИЕ НОВОСТИ</div>
+                        <li class="news__content">
+                            <ul class="news__list">
+                                <li class="news__item">
+                                    <div class="news__photo">
+                                        <img class="news__photo_1"  src="./img/news1.jpg" alt="news photo">
+                                    </div>
+                                    <div class="news__unit">
+                                        <div class="news__data">12.10.2016</div>
+                                        <div class="news__title">Похудение с помощью бодибилдинга!</div>
+                                        <div class="news__text">
+                                            <p>Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="news__item">
+                                    <div class="news__photo">
+                                        <img class="news__photo_2"  src="./img/news2.jpg" alt="news photo">
+                                    </div>
+                                    <div class="news__unit">
+                                        <div class="news__data">01.02.2016</div>
+                                        <div class="news__title">Заражай друзей, получай призы!</div>
+                                        <div class="news__text">
+                                            <p>Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="news__item">
+                                    <div class="news__photo">
+                                        <img class="news__photo_3" src="./img/news3.jpg" alt="news photo">
+                                    </div>
+                                    <div class="news__unit">
+                                        <div class="news__data">22.12.2015</div>
+                                        <div class="news__title">Фрилансер? Выпрями спину!</div>
+                                        <div class="news__text">
+                                            <p>Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора! </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <aside class="aside">
+                                <div class="aside__title">ТОП НОВОСТЕЙ ЗА СЕНТЯБРЬ</div>
+                                <ul class="aside__content">
+                                    <li class="aside__news_1">
+                                        <img src="./img/aside-news1.jpg" alt="aside-news">
+                                    </li>
+                                    <li class="aside__news_2">
+                                        <img src="./img/aside-news2.jpg" alt="aside-news">
+                                    </li>
+                                    <li class="aside__news_3">
+                                        <img src="./img/aside-news3.jpg" alt="aside-news">
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
         <footer class="footer">
+            <div class="container">
+                <div class="footer__container">
+                    <div class="footer__author">
+                        <div class="footer__school">Сделано с любовью и старанием на курсе «HTML + CSS» в
+                            <a class="footer__link" href="https://loftschool.com/">Loftschool</a>
+                        </div>
+                        <div class="footer__student">Автор работы:
+                            <a class="footer__link" href="https://vk.com/id30401197">Скрябин Денис</a>
+                        </div>
+                    </div>
+                    <div class="logo">АФРОДИТА</div>
+                    <div class="socials">
+                        <div class="socials__title">Наши социальные сети</div>
+                        <ul class="socials__list">
+                            <li class="socials__pic">
+                                <a href="" class="social__link">
+                                    <div class="socials__pic_vk"></div>
+                                </a>
+                            </li>
+                            <li class="socials__pic">
+                                <a href="" class="social__link">
+                                    <div class="socials__pic_fb"></div>
+                                </a>
+                            </li>
+                            <li class="socials__pic">
+                                <a href="" class="social__link">
+                                    <div class="socials__pic_tw"></div>
+                                </a>
+                            </li>
+                            <li class="socials__pic">
+                                <a href="" class="social__link">
+                                    <div class="socials__pic_mail"></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
+
 </html>

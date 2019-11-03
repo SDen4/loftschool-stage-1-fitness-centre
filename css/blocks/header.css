@@ -7,7 +7,10 @@
 .header__container {
     display: inline-flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: #131415;
+    padding: 1% 0%;
 }
 
 .header__contacts {

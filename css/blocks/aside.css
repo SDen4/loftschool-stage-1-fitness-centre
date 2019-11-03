@@ -1,0 +1,13 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.aside__title {
+    margin-bottom: 15%;
+}
+
+.aside__news_1, .aside__news_2 {
+    margin-bottom: 10%;
+}

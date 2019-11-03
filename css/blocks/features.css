@@ -1,0 +1,118 @@
+.features {
+    display: flex;
+    flex-flow: column wrap;
+    font-family: "open_sansbold";
+    background-color: #131415;
+}
+
+.features__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #131415;
+}
+
+.features__headline {
+    width: 405px;
+    height: 53px;
+    font-size: 49px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 2% 0%;
+}
+
+.features__content {
+margin-bottom: 5%;
+}
+
+.features__list {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.features__item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 30%;
+}
+
+.features__image {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #f89513;
+    margin-bottom: 5%;
+}
+
+.features__image_unic, .features__image_premium, .features__image_trainer {
+    position: relative;
+}
+
+.features__image_unic:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    width: 27px;
+    height: 31px;
+    background-image: url('../../img/pics/flower.png');
+}
+
+.features__image_premium:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 32px;
+    height: 32px;
+    background-image: url('../../img/pics/star.png');
+}
+
+.features__image_trainer:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 28px;
+    height: 29px;
+    background-image: url('../../img/pics/palette.png');
+}
+
+.features__subtitle {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.features__description {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    line-height: 30px;
+}
+
+.features__text, .features__sublist {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'open_sanslight';  
+}
+
+.features__sublist_item {
+    margin-left: 0px;
+    margin-bottom: 4px;
+    padding-left: 20px;
+    list-style-type: disc;
+    text-align: left;
+}
