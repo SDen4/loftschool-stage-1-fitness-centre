@@ -1,4 +1,6 @@
 .header {
+    display: flex;
+    justify-content: center;
     background-color: #131415;
 }
 
@@ -6,4 +8,24 @@
     display: inline-flex;
     justify-content: space-between;
     background-color: #131415;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__contacts_phone, .header__contacts_shed {
+    font-family: "open_sansbold";
+    font-weight: 700;
+}
+.header__contacts_phone {
+    font-size: 21px;
+    color: #ffffff;
+}
+
+.header__contacts_shed {
+    font-size: 14px;
+    color: #f89513;
+    align-self: flex-end;
 }

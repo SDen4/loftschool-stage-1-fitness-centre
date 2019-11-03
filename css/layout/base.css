@@ -11,10 +11,23 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    list-style-type: none;
+}
+
+.wrapper {
+    min-width: 1100px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    min-width: 1061 px;
+    min-width: 1061px;
 }
 
 .logo {

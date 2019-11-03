@@ -1,0 +1,45 @@
+.navigation {
+    margin: 0 5%;
+    width: 50%;
+}
+
+.navigation__list {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0% 20%; 
+}
+
+.navigation__item {
+    display: inline-flex;
+    margin-right: 20%;
+}
+
+.navigation__item_link {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 54px;
+    font-family: "open_sanslight";
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+}
+
+.navigation__item_link:last-child {
+    margin-right: 0;
+}
+
+.navigation__item_icon {
+    width: 20px;
+    height: 18px;
+    margin-right: 18px;
+}
+..navigation__item_icon:last-child {
+    margin-right: 0;
+}
+
+.navigation__item_title {
+    color: #ffffff;
+}
