@@ -1,0 +1,45 @@
+.breadcrumps {
+    display: flex;
+    margin-left: 12%;
+}
+
+.breadcrumps__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.breadcrumps__item {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5px;
+}
+
+.breadcrumps__page {
+    transition: .5s;
+}
+
+.breadcrumps__item:hover .breadcrumps__page {
+    color: #656464;;
+}
+
+.breadcrumps__item .breadcrumps__page {
+    font-size: 14px;
+    font-family: 'open_sanslight_italic';
+    color: #f89513;
+}
+
+.breadcrumps__item:last-child .breadcrumps__page {
+    color: #656464;
+    text-decoration: none;
+}
+
+.breadcrumps__item:after {
+    content: "/";
+    display: block;
+    color: #f89513;
+    padding-left: 5px;
+}
+
+.breadcrumps__item:last-child:after {
+    content: "";
+}
