@@ -1,0 +1,9 @@
+.logo {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "gora_free";
+}
+.logo__link {
+    color: #f89513;
+    text-decoration: none;
+}

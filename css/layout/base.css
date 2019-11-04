@@ -35,13 +35,6 @@ li {
     margin: 0 auto;
 }
 
-.logo {
-    font-size: 18px;
-    letter-spacing: 2px;
-    color: #f89513;
-    font-family: "gora_free";
-}
-
 .main-content {
     display: flex;
     flex-flow: column wrap;

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href='./css/layout/main.css'>
     <link rel="shortcut icon" href="./img/pics/favicon.png" type="image/png">
     <title>Afrodita</title>
@@ -15,7 +16,9 @@
         <header class="header">
             <div class="container">
                 <div class="header__container">
-                    <div class="logo">АФРОДИТА</div>
+                    <div class="logo">
+                        <a href="main.html" class="logo__link">АФРОДИТА</a>
+                    </div>
                     <nav class="navigation">
                         <ul class="navigation__list">
                             <li class="navigation__item">
@@ -102,7 +105,7 @@
                 <div class="container">
                     <div class="news__container">
                         <div class="news__headline">ПОСЛЕДНИЕ НОВОСТИ</div>
-                        <li class="news__content">
+                        <div class="news__content">
                             <ul class="news__list">
                                 <li class="news__item">
                                     <div class="news__photo">
@@ -156,6 +159,44 @@
                                 </ul>
                             </aside>
                         </div>
+                        <div class="pagination">
+                            <div class="pagination__num">Страница 1 из 7</div>
+                            <div class="pagination__pages">
+                                <ul class="pagination__pages-list">
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link pagination__back" href="#">
+                                            <img class="pagination__pic_back" src="./img/pics/pagination-back.png" alt="pagination pic">
+                                        </a>
+                                    </li>
+                                    <li class="pagination__pages-item pagination__pages-item_active">
+                                        <a class="pagination__link pagination__page1" href="#">1</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link pagination__page2" href="#">2</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link pagination__page3" href="#">3</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link pagination__page4" href="#">4</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link pagination__page5" href="#">5</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link pagination__page6" href="#">6</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link pagination__page7" href="#">7</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link pagination__forward" href="#">
+                                            <img class="pagination__pic_forward" src="./img/pics/pagination-forward.png" alt="pagination pic">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,7 +212,9 @@
                             <a class="footer__link" href="https://vk.com/id30401197">Скрябин Денис</a>
                         </div>
                     </div>
-                    <div class="logo">АФРОДИТА</div>
+                    <div class="logo">
+                        <a href="main.html" class="logo__link">АФРОДИТА</a>
+                    </div>
                     <div class="socials">
                         <div class="socials__title">Наши социальные сети</div>
                         <ul class="socials__list">
