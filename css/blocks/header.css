@@ -26,6 +26,12 @@
 .header__contacts_phone {
     font-size: 21px;
     color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.header__contacts_phone:hover {
+    color: #f89513;
 }
 
 .header__contacts_shed {
