@@ -31,4 +31,9 @@
     font-size: 14px;
     color: #f89513;
     align-self: flex-end;
+    transition: .5s;
+}
+
+.header__contacts_shed:hover {
+    color:rgba(255, 255, 255, .7);
 }

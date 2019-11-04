@@ -31,12 +31,30 @@
     align-items: center;
 }
 
-.news__item {
+.news__item, .news__item-container {
     display: flex;
-    flex-flow: row;
+    flex-direction: column;
     align-items: center;
-
+    width: 98%;
 }
+
+.news__item-container {
+    flex-direction: row;
+}
+
+.news__item:after {
+    content: "";
+    display: block;
+    width: -webkit-fill-available;
+    height: 2px;
+    background-color: #f5f5f5;
+}
+
+.news__item:last-child:after {
+    display: none;
+}
+
+
 .news__photo {
     display: flex;
     max-width: 100%;

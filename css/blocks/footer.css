@@ -22,6 +22,11 @@
 .footer__link {
     font-family: 'open_sansbold';
     color: #ffffff;
+    transition: .5s;
+}
+
+.footer__link:hover {
+    color: #f89513;
 }
 
 .footer__student .footer__link {
