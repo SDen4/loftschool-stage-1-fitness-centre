@@ -21,13 +21,13 @@
                     </div>
                     <nav class="navigation">
                         <ul class="navigation__list">
-                            <li class="navigation__item navigation__item_active">
+                            <li class="navigation__item">
                                 <a href="main.html" class="navigation__item_link">
                                     <div class='navigation__item_icon_main'></div>
                                     <div class='navigation__item_title'>ГЛАВНАЯ</div>
                                 </a>
                             </li>
-                            <li class="navigation__item">
+                            <li class="navigation__item navigation__item_active">
                                 <a href="" class="navigation__item_link">
                                     <div class='navigation__item_icon_feedback'></div>
                                     <div class='navigation__item_title'>ОТЗЫВЫ</div>
@@ -137,12 +137,105 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="pagination pagination_feedback">
+                            <div class="pagination__num">Страница 1 из 7</div>
+                            <div class="pagination__pages">
+                                <ul class="pagination__pages-list">
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link" href="#">
+                                            <img class="pagination__pic_back" src="./img/pics/pagination-back.png" alt="pagination pic">
+                                        </a>
+                                    </li>
+                                    <li class="pagination__pages-item pagination__pages-item_active">
+                                        <a class="pagination__link" href="#">1</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link" href="#">2</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link" href="#">3</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link" href="#">4</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link" href="#">5</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link" href="#">6</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link" href="#">7</a>
+                                    </li>
+                                    <li class="pagination__pages-item">
+                                        <a class="pagination__link" href="#">
+                                            <img class="pagination__pic_forward" src="./img/pics/pagination-forward.png" alt="pagination pic">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="pagination"></div>
-            <div class="banner-discount"></div>
-            <div class="leave-feedback"></div>
+            <div class="banner-discount">
+                <div class="container">
+                    <div class="banner-discount__container">
+                        <div class="banner-discount__text">
+                            <p>
+                                Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий.
+                                <span class="banner-discount__text-end">Ждем ваших заявок!</span>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="container container__sendfeedback-block">
+                <section class="sendfeedback">
+                    <div class="sendfeedback__container">
+                        <h2 class="headline headline__send-feedback">Оставить отзыв</h2>
+                        <form action="/" class="form">
+                            <div class="form__content">
+                                <label class="form__data">
+                                    <div class="form__subtitle">Ваше имя</div>
+                                    <input class="form__input" type="text" name="fist-name" placeholder="Андрей">
+                                </label>
+                                <label class="form__data">
+                                    <div class="form__subtitle">Ссылка на профиль VK</div>
+                                    <input class="form__input" type="text" name="social" placeholder="vk.com/example">
+                                </label>
+                            </div>
+                            <div class="form__content">
+                                <label class="form__data form__text">
+                                    <div class="form__subtitle">Текст отзыва</div>
+                                    <textarea class="form__input form__input_textarea" rows="5" cols="45"
+                                        name="form__text" placeholder="Мне понравилось"></textarea>
+                                </label>
+                            </div>
+                            <div class="form__content form__submit-buttons">
+                                <div class="form__photo-radio">
+                                    <div class="form__subtitle">Отображать фото в отзыве?</div>
+                                    <div class="form__radio">
+                                        <label class="form__photo">
+                                            <input class="form__radio-input" name="form__photo" type="radio">
+                                            <span class="form__answer">Да</span>
+                                        </label>
+                                        <label class="form__photo">
+                                            <input class="form__radio-input" name="form__photo" type="radio">
+                                            <span class="form__answer">Нет</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__submit">
+                                    <button class="form__button" type="submit">
+                                        <div class="form__button_name">ОТПРАВИТЬ</div>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
         </main>
         <footer class="footer">
             <div class="container">

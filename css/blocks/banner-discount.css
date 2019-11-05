@@ -1,0 +1,31 @@
+.banner-discount {
+    display: flex;
+    flex-direction: row;
+    background: url('../../img/pics/pattern.png') #131415 center repeat;
+    margin-bottom: 5%;
+}
+
+.banner-discount__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+}
+
+.banner-discount__text {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: 'open_sanslight';
+    width: 65%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.banner-discount__text-end {
+    font-family: 'open_sansbold';
+    color: #f89513;
+}
