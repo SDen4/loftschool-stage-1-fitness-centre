@@ -3,7 +3,7 @@
   }
   
   .sendfeedback {
-    padding: 0% 10% 0% 26%;
+    padding: 0% 15% 0% 15%;
     color: #221f1f;
     font-family: 'open_sanslight';
     margin-bottom: 47px;
@@ -18,7 +18,7 @@
   .sendfeedback__container {
     background-color: #f5f5f5;
     border-radius: 3px;
-    padding: 50px 12.5% 51px 13%;
+    padding: 50px 12% 50px 12%;
   }
   
   .form__content {

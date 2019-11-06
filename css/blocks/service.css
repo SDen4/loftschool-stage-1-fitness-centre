@@ -1,0 +1,130 @@
+.services {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 2%;
+  }
+  
+.services__headline {
+  font-size: 49px;
+  letter-spacing: 1px;
+  line-height: 38px;
+  color: #221f1f;
+  font-family: 'open_sansbold';
+  padding-bottom: 5%;
+  padding-left: 8%;
+  }
+
+  .services__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .services__item {
+    width: 280px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 38px;
+  }
+  
+  .services__image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 273px;
+    height: 174px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-size: cover;
+    margin-bottom: 25px;
+  }
+  
+  .services__image .services__image-frame {
+    transition-duration: .5s;
+  }
+  
+  .services__image:hover .services__image-frame {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .services__image:hover .services__name {
+    color: #f89513;
+  }
+  
+  .services__image_one {
+    background-image: url('../../img/service1.jpg');
+  }
+  
+  .services__image_three {
+    background-image: url('../../img/service2.jpg');
+  }
+  
+  .services__image_10-10 {
+    background-image: url('../../img/service3.jpg');
+  }
+  
+  .services__image_unlim {
+    background-image: url('../../img/service4.jpg');
+    background-size: 100%;
+    background-position: 50% 50%;
+  }
+  
+  .services__image_allincl {
+    background-image: url('../../img/service5.jpg');
+  }
+  
+  .services__image_negot {
+    background-image: url('../../img/service6.jpg');
+  }
+  
+  .services__image-frame {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 273px;
+    height: 174px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, .52);
+  }
+  
+  .services__name {
+    width: 206px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'open_sansbold';
+    text-align: center;
+    letter-spacing: 1px;
+    transition-duration: .5s;
+  }
+
+  .services__content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .services__title,
+  .services__text {
+    text-align: start;
+    line-height: 21px;
+    color: #221f1f;
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  .services__title {
+    font-family: 'open_sansbold';
+    padding-bottom: 11px;
+  }
+  
+  .services__text {
+    font-family: 'open_sanslight';
+    font-size: 16px;
+  }
