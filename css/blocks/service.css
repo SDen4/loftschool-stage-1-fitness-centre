@@ -56,29 +56,29 @@
     color: #f89513;
   }
   
-  .services__image_one {
+  .services__image_fitnes {
     background-image: url('../../img/service1.jpg');
   }
   
-  .services__image_three {
+  .services__image_diete {
     background-image: url('../../img/service2.jpg');
   }
   
-  .services__image_10-10 {
+  .services__image_yoga {
     background-image: url('../../img/service3.jpg');
   }
   
-  .services__image_unlim {
+  .services__image_trh {
     background-image: url('../../img/service4.jpg');
     background-size: 100%;
     background-position: 50% 50%;
   }
   
-  .services__image_allincl {
+  .services__image_crossfit {
     background-image: url('../../img/service5.jpg');
   }
   
-  .services__image_negot {
+  .services__image_swimming {
     background-image: url('../../img/service6.jpg');
   }
   
@@ -126,5 +126,5 @@
   
   .services__text {
     font-family: 'open_sanslight';
-    font-size: 16px;
+    font-size: 14px;
   }
