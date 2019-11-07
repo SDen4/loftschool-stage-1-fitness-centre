@@ -1,7 +1,7 @@
 .services {
     display: flex;
     flex-flow: column wrap;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
   }
   
 .services__headline {

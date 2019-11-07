@@ -11,16 +11,19 @@
     align-items: center;
     justify-content: flex-start;
     background-color: #131415;
+    align-self: center;
+    width: 76%;
+    margin-bottom: 5.3%;
 }
 
 .features__headline {
     width: 405px;
     height: 53px;
     font-size: 49px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     color: #ffffff;
     font-weight: 700;
-    margin: 2% 0%;
+    margin: 6.7% 0% 6.7% 1.4%;
 }
 
 .features__content {
@@ -45,7 +48,7 @@ margin-bottom: 5%;
     height: 68px;
     border-radius: 50%;
     background-color: #f89513;
-    margin-bottom: 5%;
+    margin-bottom: 19%;
 }
 
 .features__image_unic, .features__image_premium, .features__image_trainer {
@@ -91,7 +94,7 @@ margin-bottom: 5%;
     color: #ffffff;
     font-weight: 800;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
 }
 
 .features__description {
@@ -99,6 +102,10 @@ margin-bottom: 5%;
     flex-flow: column wrap;
     align-items: center;
     line-height: 30px;
+}
+
+.features__text{
+    margin-bottom: 2%;
 }
 
 .features__text, .features__sublist {
