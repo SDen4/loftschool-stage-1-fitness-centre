@@ -64,7 +64,7 @@
 .news__photo {
     display: flex;
     width: 18%;
-    height: 18%;
+    /* height: 18%; */ /*for firefox*/
     border-radius: 50%;
     overflow: hidden;
     margin-right: 2%;
